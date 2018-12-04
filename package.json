@@ -1,0 +1,27 @@
+{
+  "name": "ico-website",
+  "private": true,
+  "scripts": {
+    "start": "UNIVERSE_I18N_LOCALES='fr,en' meteor run",
+    "deploy-prod": "UNIVERSE_I18N_LOCALES='fr,en' DEPLOY_HOSTNAME=eu-west-1.galaxy.meteor.com meteor deploy ico.enzym.io ; date",
+    "test": "meteor test --once --driver-package meteortesting:mocha",
+    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0",
+    "meteor-node-stubs": "^0.4.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "reactstrap": "^6.5.0"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.js",
+      "server": "server/main.js"
+    },
+    "testModule": "tests/main.js"
+  }
+}

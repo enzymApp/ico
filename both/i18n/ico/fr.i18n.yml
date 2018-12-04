@@ -1,0 +1,77 @@
+_namespace: Ico
+
+intro:
+  big:   The first real-life mobile game
+  big2: encouraging social networking
+  small: A project build on the Ethereum Blockchain
+
+token: TOKEN SALE
+start: START
+date: 01/02/2019
+
+para1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id ligula non ex consectetur mattis. Proin neque urna, lacinia at dapibus non, volutpat eget purus. In at orci at velit posuere vestibulum id eu leo.
+para2: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id ligula non ex consectetur mattis. Proin neque urna, lacinia at dapibus non, volutpat eget purus. In at orci at velit posuere vestibulum id eu leo.
+
+goal: GOAL
+
+about:
+  para1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium lorem eget sem efficitur lacinia. Vestibulum ornare, lorem feugiat aliquam venenatis, arcu lectus sollicitudin turpis, at finibus risus velit in nibh. Pellentesque egestas, ligula a bibendum rutrum, leo nibh dictum metus, quis vulputate est enim nec ex. Sed sodales quis metus eget fermentum.
+  para2: Maecenas sed iaculis eros, vel ultrices ligula. Nam et mauris sit amet nunc blandit elementum sed a dolor. Duis tincidunt eros id leo accumsan convallis. Sed lectus ex, varius a nisi in, tempor vestibulum augue. Nulla vestibulum posuere lacus. Integer at rhoncus turpis. Nulla eget ipsum vitae turpis euismod commodo. Maecenas ut tellus nec enim bibendum venenatis. Duis viverra quam nec ipsum dapibus venenatis. Proin blandit, eros et aliquet lobortis, augue urna efficitur dui, ut imperdiet erat quam semper ipsum. Morbi condimentum, nulla a volutpat dictum, ligula nulla accumsan lorem, at vestibulum lectus felis eget est.
+  para3: In hac habitasse platea dictumst. Quisque accumsan orci eget hendrerit maximus. Cras laoreet convallis consectetur. Fusce venenatis purus sit amet ante efficitur condimentum.
+  para4: Curabitur mattis ac erat aliquet aliquet. Praesent consequat nunc ut posuere semper. Duis vel quam neque.
+
+team:
+  yannick:
+    work: Co-fondateur - CEO
+    yellow: Serial entrepreneur and cryptocurrency lover
+    para: Yannick a fondé plusieurs sociétés, dont Bubble Diving SA (60 actionnaires), et géré plusieurs collectes de fonds. Il est passionné par les relations humaines et la révolution technologique blockchain, et convaincu qu'il peut aider à formuler l'alternative aux réseaux sociaux actuels. Il aime les longs débats idéologiques mais préfère l'accomplissement d'objectifs concrets.
+  sylvain:
+    work: Co-fondateur - CTO
+    yellow: Senior software designer with cryptology background - Entrepreneur - Neophile
+    para: Sylvain est un grand amateur de blockchain et de cryptographie. Après ses études en sécurité informatique et en cryptographie, il rejoint plusieurs start-ups et devient spécialiste en applications mobiles complexes. Perfectionniste et fervent amateur de planification, il s'épanouit en trouvant les meilleurs outils et en coordonnant les progrès de l'équipe pour optimiser nos performances.
+  jeremy:
+    work: Chief Marketing Officer
+    para: Diplômé de Sciences Po à Lyon, Jeremy s'est spécialisé en communication et marketing digital. Il a travaillé pour le groupe Publicis en tant que spécialiste en communication interne et digital. Il a ensuite été chargé de la communication et des relations publiques auprès des nombreux investisseurs de la Fête des Lumières de Lyon. Enfin, il travaille avec diverses associations locales en tant que passionné de la transformation numérique.
+  alfred:
+    work: Direction artistique
+    para: Alfred a beaucoup voyagé avant et après avoir été diplômé  de l’AFPA en tant que graphiste. Cela a enrichi et ancré son appréciation pour une variété de cultures et d'esthétiques. Depuis, il travaille régulièrement pour Axiom Graphic, une prestigieuse agence parisienne, et contribue à toute l’identité visuelle d’Enzym.
+  theophile:
+    work: Ingénieur logiciel
+    para: Après ses études en sciences informatiques à l’Ecole Nationale d’Informatique et de Mathématiques Appliquées de Grenoble, Théophile a travaillé en Californie en tant qu’ingénieur logiciel pour Apple. De retour en France, il est devenu CTO pour Béton Direct mais garde du temps pour travailler sur des projets complexes.
+  bertrand:
+    work: Graphic Designer UX & Intégrateur web
+    para: Développeur front-end, Bertrand est aussi au faîte des dernières technologies. Il s’est pris récemment d’affection pour React et React Native, langages développés par Facebook. Il est notre référence en termes d’intégration de nos maquettes où il excelle !
+  sophea:
+    work: Designer d’interfaces et expériences utilisateur
+    para: Sophea est un concepteur versatile. Étant à la fois un graphiste émérite et un adepte des analyses fonctionnelles et ergonomiques, il s'est spécialisé dans la conception d'interfaces et de sites web. Les nombreux projets auxquels il prend part, conventionnels ou décalés, lui permettent de concevoir des expériences aussi créatives que focalisées sur l'humain.
+  octave:
+    work: Rédacteur et traducteur
+    para: Octave est un écrivain spécialisé dans l'analyse de l'histoire, de la culture et de l'esthétique des jeux vidéo. Ses études en Australie et en Amérique latine lui ont appris l'écriture académique et journalistique, la philosophie du langage, la sémiotique, l'anthropologie et d'autres sciences humaines. Cela lui a permis de développer un goût prononcé pour l'analyse des cultures et des communications.
+  pauline:
+    work: Community Manager
+    para: Pauline est une créatrice et conservatrice de contenu, parant les marques d’un contenu original pour régner sur Internet et faire honte à leurs opposants. Pauline a étudié les arts, les langues ainsi que la communication et a associé tout cela à un master en marketing numérique. Elle est aujourd’hui pigiste et passionnée du projet Enzym.
+  kevin:
+    work: Community Manager
+    para: Kevin est un ingénieur IT étudiant la blockchain à côté de son travail temps-plein. Crypto-enthousiaste et Community Manager de 3 différentes blockchain, il s’amuse tout en travaillant dans ce domaine. Kevin est parti 6 mois vivre au Canada pour terminer ses études et adore découvrir de nouveaux pays et nouvelles cultures lors de festivals.
+  guillaume:
+    work: Community Manager
+    para: Guillaume est un gestionnaire de médias sociaux avec une expérience financière, il a travaillé six ans dans une banque française avant de décider de faire un voyage d'un an en Australie et en Asie. Après cela, il a rejoint deux startups pour se former à la gestion des médias sociaux et soutenir de nouveaux projets.
+  fred:
+    work: Business Developper
+    para: Guillaume is a social media manager with a financial background, he worked six years in a french bank before he decided to go on a one year trip in Australia and Asia. He then joined two startups to train himself in social media management and support new projects.
+
+advisors:
+  title: B2EXPAND
+  subtitle: Conseillers techniques et marketing
+  para1: Ayant réussi un lancement de token il y a plus d’un an, B2Expand développe des jeux vidéos à succès conçus avec la technologie blockchain, autant sur la dimension monétisation que gameplay.
+  para2: L’équipe fournit également des services de conseil et investit largement en R&D.
+  para3: En tant qu’entreprise financée par la cryptomonnaie, B2Expand est un des leaders de son secteur de par son expertise dans les ICOs, la gestion post-ICO et la conception de jeux vidéos via la blockchain.
+  eric:
+    work: Président - B2Expand
+  manon:
+    work: CEO - B2Expand
+  remi:
+    work: CTO - B2Expand
+  nicolas:
+    work: Conseiller juridique et financier - Expert comptable
+    para: Nicolas est un expert comptable spécialisé dans les ICOs. Il apprécie les risques et partage son expertise sur des questions juridiques internationales. Amoureux de nouvelles technologies, il investit dans plusieurs cryptomonnaies à titre personnel.
