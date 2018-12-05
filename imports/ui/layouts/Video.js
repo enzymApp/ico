@@ -7,10 +7,10 @@ export default class Video extends React.Component {
 
   render() {
     return (
-      <div className="background-img-video-ico">
+      <div className="background-img-video">
         {this.state.video ?
           <Row>
-            <div className="videoWrapper-ico">
+            <div className="videoWrapper">
               <iframe width="560" height="315" src="https://www.youtube.com/embed/CUIr7w3d2Gs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </Row>

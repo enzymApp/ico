@@ -1,10 +1,10 @@
-import React      from 'react'
+import React from 'react'
 import {Row, Col} from 'reactstrap'
-import T       from '../components/Translator'
+import T              from '../components/Translator'
 
 export default ({children, isUserPage}) => {
   return (
-    <div className="background_img_top-ico">
+    <div className="background_img_top">
       <Row id="main">
         <Col xs="12" sm="6" md="8">
           <div id="visual">
@@ -15,18 +15,29 @@ export default ({children, isUserPage}) => {
             <img src="/images/application-enzym.png" className="mockup"/>
           </div>
           <Row className="cta">
-            <Col xs="12" sm="6" md="4">
-              <a href="" className="outline">WHITEPAPER</a>
+            <Col xs="12" sm="12" md="4">
+              <div class="whitepaper">
+                <div class="outline">
+                  WHITEPAPER
+                  <div class="sub-lang">
+                    <a href="">FR</a><br/>
+                    <a href="">EN</a><br/>
+                    <a href="">CH</a><br/>
+                    <a href="">RUS</a><br/>
+                    <a href="">AR</a><br/>
+                  </div>
+                </div>
+              </div>
             </Col>
-            <Col xs="12" sm="6" md="4">
-              <a href="https://itunes.apple.com/app/id1437880226" className="app" target="_blank">GO TO APP STORE</a>
+            <Col xs="12" sm="12" md="4">
+              <a href="https://itunes.apple.com/app/id1437880226" class="app" target="_blank">GO TO APP STORE</a>
             </Col>
-            <Col xs="12" sm="6" md="4">
-              <a href="https://play.google.com/store/apps/details?id=com.enzym_proto" className="app" target="_blank">GO TO PLAY STORE</a>
+            <Col xs="12" sm="12" md="4">
+              <a href="https://play.google.com/store/apps/details?id=com.enzym_proto" class="app" target="_blank">GO TO PLAY STORE</a>
             </Col>
           </Row>
         </Col>
-        <Col xs="12" sm="6" md="4">
+        <Col xs="12" sm="12" md="4">
           <div id="block">
             <div id="top_bloc">
               <div className="title">
@@ -35,9 +46,9 @@ export default ({children, isUserPage}) => {
               </div>
               <p><T>Ico.para1</T></p>
               <hr />
-              <div className="goal">
+              <div class="goal">
                 <h3><T>Ico.goal</T></h3>
-                <div className="center">
+                <div class="center">
                   <img src="/images/picto/eth.png" className="eth"/>
                 </div>
                 <h3>20 000 000 ETH</h3>

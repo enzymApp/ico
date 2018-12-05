@@ -38,26 +38,7 @@ strong {
   max-width: 1200px;
   margin:auto;
 }
-.gaming_row {
-  flex-direction: row-reverse;
-}
 
-.responsive-img{
-  max-width: 100%;
-}
-
-.user-count{
-  margin-right: 10px;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 13px;
-  display:inline-block;
-}
-@media screen and (max-width: 430px){
-  .user-count{
-    display:none;
-  }
-}
 .hamburger img{
   width: 25px !important;
   margin-top: 0px !important;
@@ -72,6 +53,67 @@ strong {
   }
 }
 
+#top_bloc .logo img{
+  max-width: 200px;
+}
+#top_bloc p{
+  font-size: 16px;
+}
+
+.twitter_icon{
+  background-color: #fff;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  border:5px solid #ffd900;
+  transition: 0.4s;
+}
+
+.twitter_icon:hover{
+  background-color: #ffd900;
+}
+
+.facebook_icon{
+  background-color: #fff;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  border:5px solid #e63b99;
+  transition: 0.4s;
+}
+
+.facebook_icon:hover{
+  background-color: #e63b99;
+}
+
+.telegram_icon{
+  background-color: #fff;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  border:5px solid #69ddc8;
+  transition: 0.4s;
+}
+
+.telegram_icon:hover{
+  background-color: #69ddc8;
+}
+
+.telegram_icon img {
+  margin-right:4px;
+}
+
+.table th {
+  border-top:0;
+}
+
+.col-6{
+  padding: 0;
+}
+
+.col-6 img {
+  width:inherit;
+}
 
 @media screen and (min-width: 1572px) {
   html {
@@ -91,61 +133,6 @@ strong {
   }
 }
 
-@media screen and (max-width: 1102px) {
-
-  .row_blocks{
-    flex-direction: column-reverse !important;
-  }
-
-  .row_blocks .col-6 {
-    max-width: 85%;
-    flex: 0 0 85%;
-    text-align: center;
-    margin:0 auto;
-  }
-
-  .row_blocks .col-6 img {
-    max-width: 90%;
-    flex: 0 0 90%;
-    margin-top:15px;
-    margin-bottom:60px;
-    border-bottom:1px solid #e63b99;
-    padding-bottom: 30px;
-  }
-
-  .gaming_row img{
-    border-bottom:1px solid #69ddc8 !important;
-  }
-
-  .row_blocks .col-6 p {
-    font-size:1.6rem;
-    text-align: center;
-  }
-
-  .row_blocks .col-6 h4 {
-    font-size:30px;
-  }
-
-  .jouez h4 {
-    margin-top:40px;
-  }
-}
-
-@media screen and (max-width:980px){
-  .loginBtn{
-    font-size: 16px;
-    line-height:30px;
-  }
-
-  .background_img_top {
-    background-attachment: scroll;
-  }
-
-  .recompenses span span {
-    font-size: 1.5rem;
-  }
-}
-
 @media screen and (max-width: 830px) {
   html {
     font-size:9px;
@@ -154,212 +141,26 @@ strong {
   #top_bloc {
     padding: 0 20px;
   }
-
-  #accroche {
-    font-size: 22px;
-  }
-
-  #accrochebis {
-    font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .team p{
-    font-size: 2.8rem;
-  }
-
-  .team span {
-    font-size: 1.8rem;
-  }
-
-
-
 }
 
 @media screen and (max-width: 760px) {
   html {
     font-size:8px;
   }
-
-  .team span {
-    letter-spacing: 1px;
-  }
-
-  #accroche {
-    letter-spacing: 2px;
-  }
-
-  #accrochebis {
-    letter-spacing: 1px;
-  }
-}
-
-@media screen and (max-width: 710px) {
-
-  #accroche {
-    letter-spacing: 1px;
-  }
-
-.screenContainer {
-  flex-direction: column-reverse;
-
-}
-
-.textPresentation {
-font-size: 2.3rem;
-margin-top:6rem;
-margin-bottom:-5.5rem;
-padding-right:0;
-}
-
-.screenContainer {
-  margin-bottom:0rem;
-}
-
-}
-
-@media screen and (max-width: 650px) {
-
-  .social_shares img {
-      width: 40px;
-  }
-
-  .referral_text{
-    padding: 0 6px;
-    font-size: 12px;
-  }
-  .referral_text a {
-    font-size: 12px;
-  }
-
-  .referral_text .share_text {
-    font-size: 18px;
-  }
-
-  .logo_enzym_footer {
-    padding: 12px;
-    margin: 35px 0;
-    height: 50px;
-    width: 50px;
-  }
-
-
-
-  .slick-slide {
-    padding:10px;
-  }
-
-  .slick-next {
-    right:-40px;
-  }
-
-  .slick-prev {
-    left:-40px;
-  }
-
-  .form-control {
-    font-size: 16px;
-    padding: 5px;
-  }
-
-  .joinus_banner button{
-    letter-spacing: 2px;
-    padding:10px 30px;
-  }
-
-  .top_form .purple_buttons {
-    font-size: 16px;
-    letter-spacing: normal;
-  }
-
-  .purple_buttons:hover {
-
-  }
-
-  .top_form .purple_buttons:hover {
-
-  }
-
-  .social_links{
-    bottom: 0;
-    left: 0;
-    right:auto;top:auto;
-  }
-
-  .social_links a {
-    float: left;
-    margin-left: 10px;
-    margin-bottom: 0;
-width:35px;
-height:35px;
-border-width: 2px;
-  }
-
 }
 
 @media screen and (max-height: 600px) {
-
-html {
-  font-size:7px;
-}
-
-  .background_img_top {
-    height:130vh;
-  }
-
-  .background_img_top .outer-div {
-    height:130vh;
+  html {
+    font-size:7px;
   }
 }
 
-@media screen and (max-height: 420px) {
-
-  .background_img_top {
-    height:225vh;
-  }
-
-  .background_img_top .outer-div {
-    height:225vh;
-  }
-}
 
 @media screen and (max-width: 990px) {
   .hide-link{
-    display:none;
+    display:none !important;
   }
 }
-
-#header .menu-mobile .hide-link{
-  display:none;
-}
-@media screen and (max-width: 990px) {
-  #header .menu-mobile .hide-link{
-    display:block;
-  }
-  #header .menu-mobile{
-    background-color: #ffd900;
-    padding: 0px 10px;
-    border-top: white solid 1px;
-  }
-  #header .menu-mobile a{
-    display:block;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 5px 0;
-    transition: 0.2s;
-  }
-  #header .menu-mobile a:hover{
-    display:block;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 5px 0;
-    color: #e63b99;
-    transition: 0.2s;
-  }
-}
-
-
 
 
 /* ICO page */
@@ -463,6 +264,67 @@ html {
 
 /* Main */
 
+.whitepaper.inb{
+  display:inline-block;
+  position: relative;
+}
+
+.whitepaper.inb .name{
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.whitepaper .sub-lang{
+  display: none;
+  position: absolute;
+  width: 100px;
+  margin: auto;
+  background: white;
+  border-radius: 8px;
+  left: 0;
+  right: 0;
+  top: 30px;
+  padding: 5px;
+}
+
+.whitepaper.inb .sub-lang{
+  top:40px;
+}
+
+.whitepaper .sub-lang a{
+  color:black;
+}
+.whitepaper .sub-lang a:hover{
+  color:#e63b99;
+}
+
+.whitepaper .outline:hover > .sub-lang{
+  display: block;
+}
+
+@media screen and (max-width: 990px) {
+  .whitepaper .outline:hover > .sub-lang{
+    display: block;
+
+  }
+  .whitepaper .sub-lang{
+    position: relative;
+    display: block;
+    background-color: transparent;
+    top:auto;
+  }
+
+  #main .cta .outline:hover{
+    background-color: transparent !important;
+    cursor: auto;
+    color: #e63b99;
+    transition: 0.3s;
+  }
+
+}
+
 .background_img_top{
   background: url('/images/wave_bg.png') no-repeat center;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
@@ -481,9 +343,12 @@ html {
   padding-top: 55px;
 }
 
-#main .outline{
+#main .cta .outline{
+  word-break: break-all;
   font-weight: bold;
+  cursor: pointer;
   width: 100%;
+  color:white;
   border: 2px solid white;
   border-radius: 30px;
   padding: 5px 15px;
@@ -491,20 +356,18 @@ html {
   text-align: center;
   font-size:16px;
   transition: 0.3s;
+  margin-bottom: 10px;
 }
 
-#main .outline:hover{
+#main .cta .outline:hover{
   background-color: white;
   color: #e63b99;
   transition: 0.3s;
 }
 
 
-#main .app{
-  background: #e63b99; /* Old browsers */
-  background: -moz-linear-gradient(top, #e63b99 0%, #bf3173 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #e63b99 0%,#bf3173 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #e63b99 0%,#bf3173 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+#main .cta .app{
+  background-color: #e63b99; /* Old browsers */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e63b99', endColorstr='#bf3173',GradientType=0 ); /* IE6-9 */
   font-weight: bold;
   width: 100%;
@@ -515,11 +378,13 @@ html {
   text-align: center;
   font-size:16px;
   transition: 0.3s;
+  margin-bottom: 10px;
 }
 
-#main .app:hover{
-  opacity: 0.7;
+#main .cta .app:hover{
+  background-color: transparent;
   transition: 0.3s;
+  color: #e63b99
 }
 
 #main h2{

@@ -19,14 +19,14 @@ const Team = [
 ]
 
 const Advisor = [
-  {identity: 'Eric Burgel', work: <T>Ico.advisors.eric.work</T>, img: 'eric.png', linkedin: 'eric-burgel-a4313b5/'},
-  {identity: 'Manon Burgel', work: <T>Ico.advisors.manon.work</T>, img: 'manon.png', linkedin: 'eric-burgel-a4313b5/'},
-  {identity: 'Rémi Burgel', work: <T>Ico.advisors.remi.work</T>, img: 'remi.png', linkedin: 'r%C3%A9mi-burgel-1999ab149/'},
+  {identity: 'Eric Burgel', code: 'eric', img: 'eric.png', linkedin: 'eric-burgel-a4313b5/'},
+  {identity: 'Manon Burgel', code: 'manon', img: 'manon.png', linkedin: 'eric-burgel-a4313b5/'},
+  {identity: 'Rémi Burgel', code: 'remi', img: 'remi.png', linkedin: 'r%C3%A9mi-burgel-1999ab149/'},
 ]
 
 export default ({children, isUserPage}) => {
   return (
-    <div className="background-img-team-ico">
+    <div className="background-img-team">
       <div id="team">
         <div className="title"><h2>THE TEAM</h2></div>
         <Row>
@@ -38,11 +38,11 @@ export default ({children, isUserPage}) => {
                 </div>
                 <div className="content">
                   <h2>{identity}</h2>
-                  <h3><T>Ico.team.{code}.work</T></h3>
+                  <h3><T>{`Ico.team.${code}.work`}</T></h3>
                   <p className="yellow">{yellow}</p>
                   <p className="para">{para}</p>
                 </div>
-                <div className="linkedin-ico">
+                <div className="linkedin">
                   <a href={`https://www.linkedin.com/in/${linkedin}`} target="_blank"><img src="/images/linkedin-ico.png" /></a>
                 </div>
               </div>
@@ -60,7 +60,7 @@ export default ({children, isUserPage}) => {
             <p className="para"><T>Ico.advisors.para2</T></p>
             <p className="para"><T>Ico.advisors.para3</T></p>
           </div>
-          {Advisor.map(({identity, work, img, linkedin}) => (
+          {Advisor.map(({identity, code, img, linkedin}) => (
             <Col xs="12" sm="4" md="4" key={identity}>
               <div className="profil">
                 <div className="visual">
@@ -68,9 +68,9 @@ export default ({children, isUserPage}) => {
                 </div>
                 <div className="content">
                   <h2>{identity}</h2>
-                  <h3>{work}</h3>
+                  <h3><T>{`Ico.advisors.${code}.work`}</T></h3>
                 </div>
-                <div className="linkedin-ico">
+                <div className="linkedin">
                   <a href={`https://www.linkedin.com/in/${linkedin}`} target="_blank"><img src="/images/linkedin-ico.png" /></a>
                 </div>
               </div>

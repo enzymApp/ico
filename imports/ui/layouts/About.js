@@ -4,7 +4,7 @@ import T              from '../components/Translator'
 
 export default ({children, isUserPage}) => {
   return (
-    <div className="background-radient-about-ico">
+    <div className="background-radient-about">
       <Row id="about">
         <Col xs="12" sm="6" md="6">
           <img src="/images/logo/enzym-transparent-ico.png" className="logo-transparent"/>

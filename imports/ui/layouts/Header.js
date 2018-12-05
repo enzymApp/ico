@@ -24,12 +24,9 @@ export default class Header extends React.Component {
       <Row id="header">
         <Col xs="6" md="8">
           <div id="logo_top">
-            <span className="hamburger" onClick={this.toggleStatus}><img src="/images/hamburger.png"/></span>
             <img src="/images/logo/enzym_small_white.png" />
             <div className="left-side">
-              {LINKS.map(({link, name}) => (
-                <Menu {...{link, name}} key={link}></Menu>
-              ))}
+              <Menu></Menu>
             </div>
           </div>
         </Col>
@@ -38,13 +35,6 @@ export default class Header extends React.Component {
             <LanguageFlag {...{langCode, imgSrc}} key={langCode} />
           ))}
         </Col>
-        {this.state.status &&
-          <Col xs="12" className="menu-mobile">
-            {LINKS.map(({link, name}) => (
-              <Menu {...{link, name}} key={name}></Menu>
-            ))}
-          </Col>
-        }
       </Row>
     )
   }
