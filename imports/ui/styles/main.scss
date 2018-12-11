@@ -8,6 +8,8 @@
 @import "config/variables";
 
 //Composants
+@import "components/btn";
+@import "components/promo";
 @import "components/social";
 
 /*Yellow : ffd900
@@ -25,6 +27,7 @@ html {
 body{
   font-family: 'Quicksand', sans-serif;
   overflow-x: hidden;
+  font-size: 1rem;
 }
 
 button {
@@ -63,13 +66,6 @@ strong {
   }
 }
 
-#top_bloc .logo img{
-  max-width: 200px;
-}
-#top_bloc p{
-  font-size: 16px;
-}
-
 .table th {
   border-top:0;
 }
@@ -103,10 +99,6 @@ strong {
 @media screen and (max-width: 830px) {
   html {
     font-size:9px;
-  }
-
-  #top_bloc {
-    padding: 0 20px;
   }
 }
 
@@ -381,34 +373,6 @@ strong {
   text-align: center;
   font-size: 2.2rem;
   color:white;
-}
-#main #block{
-  margin-top: 22px;
-  border-radius: 10px;
-  padding: 15px;
-  background: #e63b99; /* Old browsers */
-  background: -moz-linear-gradient(top, #e63b99 0%, #bf3173 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #e63b99 0%,#bf3173 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #e63b99 0%,#bf3173 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e63b99', endColorstr='#bf3173',GradientType=0 ); /* IE6-9 */
-  -webkit-box-shadow: 5px 5px 63px -15px rgba(0,0,0,0.59);
-  -moz-box-shadow: 5px 5px 63px -15px rgba(0,0,0,0.59);
-  box-shadow: 5px 5px 63px -15px rgba(0,0,0,0.59);
-}
-@media screen and (max-width: 575px) {
-  #main #block{
-    margin-top: 10px;
-  }
-}
-
-#main #block p{
-  color:white;
-  font-size: 14px;
-  text-align: justify;
-  line-height: 1.2;
-}
-#main #block hr{
-  border-top: 5px solid white;
 }
 
 #main .mockup{
