@@ -1,0 +1,135 @@
+//Liens réseaux sociaux
+
+/* Social Link */
+
+.social_links_ico{
+  position: fixed;
+  top:60px;
+  right:8px;
+  transition: 0.2s;
+  z-index: 9;
+  padding:8px;
+
+  a{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom:10px;
+
+    img{
+      height: 50%;
+    }
+  }
+
+  .twitter_icon{
+    background-color: #fff;
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+    border:5px solid $social-jaune;
+    transition: 0.4s;
+    box-shadow: 5px 5px 63px -15px rgba(0,0,0,0.59);
+    &:hover{
+      background-color: $social-jaune;
+    }
+  }
+
+  .facebook_icon{
+    background-color: #fff;
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+    border:5px solid $social-rose;
+    transition: 0.4s;
+    box-shadow: 5px 5px 63px -15px rgba(0,0,0,0.59);
+    &:hover{
+      background-color: $social-rose;
+    }
+  }
+
+  .telegram_icon{
+    background-color: #fff;
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+    border:5px solid $social-vert;
+    transition: 0.4s;
+    box-shadow: 5px 5px 63px -15px rgba(0,0,0,0.59);
+    img{
+      margin-right:4px;
+    }
+
+    &:hover{
+      background-color: $social-vert;
+    }
+  }
+
+  .github_icon{
+    background-color: #fff;
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+    border:5px solid $social-rose;
+    transition: 0.4s;
+    box-shadow: 5px 5px 63px -15px rgba(0,0,0,0.59);
+
+    &:hover{
+      background-color: $social-rose;
+    }
+  }
+
+  .bitcoin_icon{
+    background-color: #fff;
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+    border:5px solid $social-jaune;
+    transition: 0.4s;
+    box-shadow: 5px 5px 63px -15px rgba(0,0,0,0.59);
+
+    &:hover{
+      background-color: $social-jaune;
+    }
+  }
+
+}
+
+
+.twitter_icon{
+  background-color: #fff;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  border:5px solid $social-jaune;
+  transition: 0.4s;
+}
+
+.twitter_icon:hover{
+  background-color: $social-jaune;
+}
+
+.facebook_icon{
+  background-color: #fff;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  border:5px solid $social-rose;
+  transition: 0.4s;
+}
+
+.facebook_icon:hover{
+  background-color: $social-rose;
+}
+
+// .telegram_icon{
+//   background-color: #fff;
+//   width:50px;
+//   height:50px;
+//   border-radius: 50%;
+//   border:5px solid $social-vert;
+//   transition: 0.4s;
+// }
+//
+// .telegram_icon:hover{
+//   background-color: $social-vert;
+// }
