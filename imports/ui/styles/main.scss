@@ -129,8 +129,8 @@ strong {
 
 #header {
   background: #e63b99;
-  height:55px;
   position: fixed;
+  padding: 5px 0;
   width:100%;
   z-index: 99;
 }
@@ -437,11 +437,7 @@ strong {
 }
 
 #about{
-  max-width: 1200px;
-  margin: auto;
-  justify-content: center;
   padding: 55px 0;
-  align-items: center;
 }
 
 #about .logo-transparent{

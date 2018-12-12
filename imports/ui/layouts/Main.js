@@ -7,7 +7,7 @@ export default ({children, isUserPage}) => {
     <div className="background_img_top">
       <Container>
         <Row id="main">
-          <Col xs="12" sm="6" md="8">
+          <Col xs="12" sm="12" md="6" lg="8">
             <div id="visual">
               <h1>
                 <T>Ico.intro.big</T><br/><T>Ico.intro.big2</T>
@@ -16,7 +16,7 @@ export default ({children, isUserPage}) => {
               <img src="/images/application-enzym.png" className="mockup"/>
             </div>
             <Row className="cta">
-              <Col xs="12" sm="12" md="4">
+              <Col xs="12" sm="12" md="12" lg="4">
                 <div className="whitepaper">
                   <div className="outline">
                     WHITEPAPER
@@ -30,15 +30,15 @@ export default ({children, isUserPage}) => {
                   </div>
                 </div>
               </Col>
-              <Col xs="12" sm="12" md="4">
+              <Col xs="12" sm="12" md="12" lg="4">
                 <a href="https://itunes.apple.com/app/id1437880226" className="app" target="_blank">GO TO APP STORE</a>
               </Col>
-              <Col xs="12" sm="12" md="4">
+              <Col xs="12" sm="12" md="12" lg="4">
                 <a href="https://play.google.com/store/apps/details?id=com.enzym_proto" className="app" target="_blank">GO TO PLAY STORE</a>
               </Col>
             </Row>
           </Col>
-          <Col xs="12" sm="12" md="4">
+          <Col xs="12" sm="12" md="6" lg="4">
             <div className="bloc-promo">
               <div id="top_bloc">
                 <div className="title">
@@ -49,7 +49,7 @@ export default ({children, isUserPage}) => {
                   <p className=""><T>Ico.para1</T></p>
                   <h3 className="bloc-promo__title"><T>Ico.para2</T></h3>
                   <p className="bloc-promo__title bloc-promo__title--promo"><T>Ico.para3</T></p>
-                  <a href="mailto:ico@enzym.io" className="btn" target="_blank"><T>Ico.link</T></a>
+                  <a href="mailto:ico@enzym.io" className="btn"><T>Ico.link</T></a>
                 </div>
 
                 <div className="bloc-promo__content outline text-center">

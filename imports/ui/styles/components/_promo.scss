@@ -5,14 +5,14 @@
   font-size: 18px;
   line-height: 1.2rem;
   margin-top: 22px;
-  border-radius: 10px;
+  border-radius: 30px;
   padding: 15px;
   background: #e63b99; /* Old browsers */
-  background: -moz-linear-gradient(top, #e63b99 0%, #bf3173 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #e63b99 0%,#bf3173 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #e63b99 0%,#bf3173 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e63b99', endColorstr='#bf3173',GradientType=0 ); /* IE6-9 */
-  box-shadow: 5px 5px 63px -15px rgba(0,0,0,0.59);
+  background: -moz-linear-gradient(top, #e63b99 0%, #aa2165 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #e63b99 0%,#aa2165 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #e63b99 0%,#aa2165 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e63b99', endColorstr='#aa2165',GradientType=0 ); /* IE6-9 */
+  box-shadow: 0 0 8px rgba(0,0,0,.18),0 8px 16px rgba(0,0,0,.36);
 
   &__content{
     margin-bottom: 15px;
