@@ -6,6 +6,7 @@ import Header         from '../layouts/Header'
 import Main           from '../layouts/Main'
 import Video          from '../layouts/Video'
 import Team           from '../layouts/Team'
+import Chat           from '../layouts/Chat'
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Video />
       <About />
       <Team />
+      <Chat />
       <div className="social_links_ico" align="right">
         <SocialLink name="facebook" />
         <SocialLink name="twitter" />
