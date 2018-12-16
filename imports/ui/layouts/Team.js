@@ -1,5 +1,5 @@
 import React      from 'react'
-import {Row, Col} from 'reactstrap'
+import {Container, Row, Col} from 'reactstrap'
 import T     from '../components/Translator'
 
 const Team = [
@@ -27,8 +27,10 @@ const Advisor = [
 export default ({children, isUserPage}) => {
   return (
     <div className="background-img-team">
+
+    <Container>
       <div id="team">
-        <div className="title"><h2>THE TEAM</h2></div>
+        <div className="title"><h2><T>Ico.team.head</T></h2></div>
         <Row>
           {Team.map(({identity, code, yellow, para, img, linkedin}) => (
             <Col xs="12" sm="6" md="6" key={identity}>
@@ -50,8 +52,11 @@ export default ({children, isUserPage}) => {
           ))}
         </Row>
       </div>
+      </Container>
+
+      <Container>
       <div id="advisors">
-        <div className="title"><h2>OUR ADVISORS</h2></div>
+        <div className="title"><h2><T>Ico.advisors.head</T></h2></div>
         <Row>
           <div className="content-one">
             <h2><T>Ico.advisors.title</T></h2>
@@ -78,18 +83,23 @@ export default ({children, isUserPage}) => {
           ))}
         </Row>
       </div>
+    </Container>
+
+    <Container>
       <div id="financial">
         <div className="profil">
           <div className="visual">
             <img src="/images/people/nicolas.png" className="img-profil" />
           </div>
           <div className="content">
-            <h2>Nicolas Paillet</h2>
+            <h2><T>Ico.advisors.nicolas.name</T></h2>
             <h3><T>Ico.advisors.nicolas.work</T></h3>
             <p className="para"><T>Ico.advisors.nicolas.para</T></p>
           </div>
         </div>
       </div>
+    </Container>
+
     </div>
   )
 }

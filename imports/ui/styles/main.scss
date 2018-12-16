@@ -10,7 +10,10 @@
 //Composants
 @import "components/btn";
 @import "components/promo";
+@import "components/header";
 @import "components/social";
+@import "components/team";
+@import "components/advisor";
 
 /*Yellow : ffd900
 purple : e63b99
@@ -20,8 +23,9 @@ Cyan : 69ddc8*/
   display:none;
 }
 
-html {
-  font-size: 16px;
+html, body{
+  width: 100%;
+  height: 100%;
 }
 
 body{
@@ -124,102 +128,6 @@ strong {
 
 /* ICO page */
 
-/* Header */
-
-
-#header {
-  background: #e63b99;
-  position: fixed;
-  padding: 5px 0;
-  width:100%;
-  z-index: 99;
-}
-
-#header #logo_top{
-  line-height: 40px;
-  margin-left:10px;
-}
-
-#header .right-side {
-  text-align: right;
-  padding-top: 9px;
-}
-
-#header .right-side a {
-  margin: 6px 10px;
-  font-weight: bold;
-  font-size: 15px;
-  transition: 0.2s;
-}
-
-#header .left-side a:hover {
-  color:black;
-  transition: 0.2s;
-}
-
-#header .left-side {
-  text-align: left;
-  padding-top: 5px;
-  display:inline-block;
-}
-
-#header .left-side a {
-  margin: 6px 25px;
-  font-weight: bold;
-  font-size: 15px;
-  transition: 0.2s;
-}
-
-#header .left-side a:hover {
-  color:black;
-  transition: 0.2s;
-}
-
-
-
-#header #logo_top{
-  height:100%;
-}
-
-#header #logo_top img {
-  line-height: 100%;
-  margin-top: 4px;
-  margin-right: 15px;
-}
-
-/* Menu mobile */
-
-#header .menu-mobile .hide-link{
-  display:none;
-}
-@media screen and (max-width: 990px) {
-  #header .menu-mobile .hide-link{
-    display:block;
-  }
-  #header .menu-mobile{
-    background-color: #e63b99;
-    padding: 0px 10px;
-    border-top: white solid 1px;
-  }
-  #header .menu-mobile a{
-    display:block;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 5px 0;
-    transition: 0.2s;
-  }
-  #header .menu-mobile a:hover{
-    display:block;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 5px 0;
-    color: black;
-    transition: 0.2s;
-  }
-  #header #logo_top img {
-    margin-top: 9px;
-  }
-}
 
 /* Main */
 
@@ -338,6 +246,7 @@ strong {
   font-size:16px;
   transition: 0.3s;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 #main .cta .app:hover{
@@ -459,141 +368,4 @@ strong {
 
 #about #mockup img{
   max-width: 75%;
-}
-
-/* Team */
-
-.background-img-team{
-  background: #69ddc8; /* Old browsers */
-  background: -moz-linear-gradient(top, #69ddc8 0%, #6fc3ce 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #69ddc8 0%,#6fc3ce 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #69ddc8 0%,#6fc3ce 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69ddc8', endColorstr='#6fc3ce',GradientType=0 ); /* IE6-9 */
-  padding: 30px 0;
-}
-
-#team{
-  max-width: 1200px;
-  margin: auto;
-}
-
-#advisors{
-  max-width: 900px;
-  margin: auto;
-  margin-bottom: 60px;
-}
-
-#financial{
-  max-width: 600px;
-  margin: auto;
-  margin-bottom: 60px;
-}
-
-#team h2, #financial h2{
-  color: #e63b99;
-  font-weight: bold;
-}
-
-#team h3, #financial h3{
-  color:white;
-  margin-bottom: 10px;
-}
-
-#team .profil, #financial .para{
-  margin-bottom: 20px;
-}
-#team .yellow{
-  color:yellow;
-  font-size:14px;
-  font-weight: bold;
-  margin-bottom: 0px;
-}
-
-#team .para, #financial .para{
-  color:white;
-  font-size:15px;
-  line-height: 1.2;
-  text-align: justify;
-}
-
-#team .linkedin img, #financial .linkedin img{
-  width: 30px;
-  position: absolute;
-  right: 0px;
-  top: 0;
-}
-
-#team .title h2, #advisors .title h2{
-  text-align: center;
-  font-size: 48px;
-  color:white;
-  margin-bottom: 20px;
-}
-
-#team .profil, #financial .profil{
-  display: flex;
-  position: relative;
-}
-
-#team .visual, #financial .visual{
-  flex: 1;
-}
-
-#team .img-profil, #financial .img-profil{
-  max-width: 100%;
-  width: 150px;
-}
-
-#team .content, #financial .content{
-  flex: 3;
-}
-
-
-#advisors h2{
-  color: #e63b99;
-  font-weight: bold;
-  text-align: center;
-}
-
-#advisors h3{
-  color:white;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-#advisors .visual{
-  text-align: center;
-}
-
-#advisors .profil{
-  margin-bottom: 20px;
-}
-
-#advisors .profil img{
-  max-width: 75%;
-}
-
-#advisors .linkedin img{
-  width: 30px;
-  position: absolute;
-  right: 0px;
-  top: 0;
-}
-
-#advisors .content-one{
-  margin-bottom: 20px;
-}
-
-#advisors .content-one h2{
-  text-align: left;
-}
-#advisors .content-one h3{
-  text-align: left;
-}
-
-#advisors .para{
-  color:white;
-  font-size:15px;
-  line-height: 1.2;
-  text-align: justify;
 }

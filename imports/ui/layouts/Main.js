@@ -31,10 +31,10 @@ export default ({children, isUserPage}) => {
                 </div>
               </Col>
               <Col xs="12" sm="12" md="12" lg="4">
-                <a href="https://itunes.apple.com/app/id1437880226" className="app" target="_blank">GO TO APP STORE</a>
+                <a href="https://itunes.apple.com/app/id1437880226" className="app" target="_blank"><T>Ico.appbtn.appstore</T></a>
               </Col>
               <Col xs="12" sm="12" md="12" lg="4">
-                <a href="https://play.google.com/store/apps/details?id=com.enzym_proto" className="app" target="_blank">GO TO PLAY STORE</a>
+                <a href="https://play.google.com/store/apps/details?id=com.enzym_proto" className="app" target="_blank"><T>Ico.appbtn.playstore</T></a>
               </Col>
             </Row>
           </Col>

@@ -1,38 +1,48 @@
 _namespace: Ico
 
+menu:
+  about: A propos d'Enzym
+  whitepaper: Whitepaper
+  team: L'équipe
+
 intro:
-  big:   The first real-life mobile game
-  big2: encouraging social networking
-  small: A project build on the Ethereum Blockchain
+  big:  Le premier jeu mobile grandeur nature
+  big2: qui te fait rencontrer du monde
+  small: Un projet bâti sur la blockchain Ethereum
+
+appbtn:
+  playstore: Aller sur le Playstore
+  appstore: Aller sur l'Appstore
 
 token: TOKEN SALE
 
-para1: Now
+para1: Maintenant
 para2: Vente privée
 para3: -50%
 link: Nous contacter
-para4: Soon
-para5: Main Sale
+para4: Bientôt
+para5: Vente publique
 para6: -35% > 0%
-para7: Goal
+para7: Objectif
 
-goal: GOAL
+goal: OBJECTIF
 
 about:
-  para1: Enzym est un nouveau jeu mobile dans la vie réelle qui invite les joueurs à rencontrer de nouvelles personnes dans le monde réel. Les joueurs répondent aux quêtes à partir de leurs smartphones avec ou sans réalité augmentée, ce qui les amène à se socialiser avec de nouvelles personnes.
-  para2: Le terrain de jeu d'Enzym est une zone délimitée autours des joueurs et qui se déplace en même temps qu'eux dans leur quartier, cela permet à l'application de répondre aux principales habitudes des joueurs dès le moment où ils se trouvent sur leur mobile. Les quêtes commencent ou finissent généralement dans un établissement privé ou dans un espace ouvert au public, ce qui permet aux joueurs de rencontrer de nouvelles personnes dans un environnement sécurisé.
-  para3: Enzym encourage les utilisateurs à créer un réseau social de personnes qui s'amusent régulièrement ensemble. La réputation des joueurs a un rôle clé à jouer pour assurer, de manière non partisane, le contrôle des interactions entre ceux-ci. Il est construit en additionnant des conséquences objectives (par exemple le nombre de messages sans réponse) et subjectives (telles que la satisfaction d'un autre joueur après les avoir rencontrées). Ce mécanisme encourage les comportements positifs et donne suffisamment d'informations aux joueurs pour leur permettre de déterminer s'ils sont intéressés ou non par une rencontre.
-  para4: Enzym est une application transparente basée sur l'Ethereum Blockchain. Le ZYM avec son jeton ERC-20 est le carburant de l'application. La plupart des actions nécessitent soit des ZYM, soit permettent au joueur de les gagner.
-  para5: Les établissements pourront acheter des ZYM et organiser des distributions dans leurs locaux pour encourager la communauté d'Enzym à venir les découvrir. Ils pourront consulter des statistiques précises sur la fréquentation à la suite de ces distributions, à partir des informations extraites directement de la Blockchain. Enzym fournira d’autres outils pour améliorer les connaissances sur la clientèle cible et sa rétention tout en respectant la confidentialité du joueur. Le ZYM et son mode de distribution permettent au joueur d’avoir accès à une application gratuite, sans publicité ni compte premium, tout en maintenant un modèle commercial solide et fiable.
+  para1: Enzym est un jeu mobile grandeur nature dont l’utilisation conduit à faire de nouvelles rencontres dans le monde réel. Les joueurs reçoivent des défis qu’ils relèvent via leur smartphone, avec ou sans réalité augmentée, et qui les mettent en contact avec de sympathiques inconnus.
+  para2: Enzym est ancré dans le local et les joueurs évoluent dans le quartier où ils se trouvent. Cela permet notamment à l’application de respecter une des principales habitudes des joueurs sur mobile &#58; l’instantanéité. Les défis se déroulent ou se terminent généralement dans un établissement privé ouvert au public, ce qui offre un cadre rassurant pour rencontrer des inconnus.
+  para3: Enzym permet à l’utilisateur de tisser un réseau social local de joueurs qui jouent régulièrement ensemble. La réputation des utilisateurs remplit un rôle essentiel pour assurer de façon neutre la régulation des interactions. Elle est construite par agrégation des conséquences objectives (ex &#58; nombres de messages sans réponse) et subjectives (ex &#58; satisfaction d’un autre utilisateur après une rencontre). Ce mécanisme favorise les comportements positifs tout en apportant à l’utilisateur le niveau d’information nécessaire pour déterminer si une rencontre l’intéresse ou non.
+  para4: Enzym est une application transparente et décentralisée basée sur la blockchain Ethereum. Le ZYM, son token ERC-20, est le carburant de l’application &#58; la plupart des actions nécessitent des ZYMs ou en font gagner à l’utilisateur.
+  para5: Les établissements pourront acheter des ZYMs et organiser des distributions dans leurs locaux pour inciter la communauté Enzym à venir les découvrir. Ils pourront consulter les statistiques précises de la fréquentation conséquente aux distributions, directement extraites de la blockchain. Enzym mettra à leur disposition d’autres outils pour améliorer la connaissance de leur cible et sa rétention, tout en respectant l’anonymat des joueurs. Le ZYM et son mode de distribution permettent de proposer à l’utilisateur une application gratuite, dénuée de publicité ou de comptes premium, tout en conservant un business model solide et fiable dans le temps.
 
 team:
+  head: L'équipe
   yannick:
     work: Co-fondateur - CEO
-    yellow: Serial entrepreneur and cryptocurrency lover
+    yellow: Serial entrepreneur et amoureux de la cryptomonnaie
     para: Yannick a fondé plusieurs sociétés, dont Bubble Diving SA (60 actionnaires), et géré plusieurs collectes de fonds. Il est passionné par les relations humaines et la révolution technologique blockchain, et convaincu qu'il peut aider à formuler l'alternative aux réseaux sociaux actuels. Il aime les longs débats idéologiques mais préfère l'accomplissement d'objectifs concrets.
   sylvain:
     work: Co-fondateur - CTO
-    yellow: Senior software designer with cryptology background - Entrepreneur - Neophile
+    yellow: Concepteur logiciel senior avec expérience en cryptologie - Entrepreneur - Neophile
     para: Sylvain est un grand amateur de blockchain et de cryptographie. Après ses études en sécurité informatique et en cryptographie, il rejoint plusieurs start-ups et devient spécialiste en applications mobiles complexes. Perfectionniste et fervent amateur de planification, il s'épanouit en trouvant les meilleurs outils et en coordonnant les progrès de l'équipe pour optimiser nos performances.
   jeremy:
     work: Chief Marketing Officer
@@ -44,7 +54,7 @@ team:
     work: Ingénieur logiciel
     para: Après ses études en sciences informatiques à l’Ecole Nationale d’Informatique et de Mathématiques Appliquées de Grenoble, Théophile a travaillé en Californie en tant qu’ingénieur logiciel pour Apple. De retour en France, il est devenu CTO pour Béton Direct mais garde du temps pour travailler sur des projets complexes.
   bertrand:
-    work: Graphic Designer UX & Intégrateur web
+    work: Designer graphique UX & Intégrateur web
     para: Développeur front-end, Bertrand est aussi au faîte des dernières technologies. Il s’est pris récemment d’affection pour React et React Native, langages développés par Facebook. Il est notre référence en termes d’intégration de nos maquettes où il excelle !
   sophea:
     work: Designer d’interfaces et expériences utilisateur
@@ -63,9 +73,10 @@ team:
     para: Guillaume est un gestionnaire de médias sociaux avec une expérience financière, il a travaillé six ans dans une banque française avant de décider de faire un voyage d'un an en Australie et en Asie. Après cela, il a rejoint deux startups pour se former à la gestion des médias sociaux et soutenir de nouveaux projets.
   fred:
     work: Business Developper
-    para: Guillaume is a social media manager with a financial background, he worked six years in a french bank before he decided to go on a one year trip in Australia and Asia. He then joined two startups to train himself in social media management and support new projects.
+    para: Guillaume est un gestionnaire de médias sociaux avec une expérience financière. Il a travaillé pendant six ans dans une banque française avant de décider de partir pour un voyage d'un an en Australie et en Asie. Il a ensuite rejoint deux startups pour se former à la gestion des médias sociaux et soutenir de nouveaux projets.
 
 advisors:
+  head: Nos conseillers
   title: B2EXPAND
   subtitle: Conseillers techniques et marketing
   para1: Ayant réussi un lancement de token il y a plus d’un an, B2Expand développe des jeux vidéos à succès conçus avec la technologie blockchain, autant sur la dimension monétisation que gameplay.
@@ -78,5 +89,6 @@ advisors:
   remi:
     work: CTO - B2Expand
   nicolas:
+    name: Nicolas Paillet
     work: Conseiller juridique et financier - Expert comptable
-    para: Nicolas est un expert comptable spécialisé dans les ICOs. Il apprécie les risques et partage son expertise sur des questions juridiques internationales. Amoureux de nouvelles technologies, il investit dans plusieurs cryptomonnaies à titre personnel.
+    para: Nicolas est un expert comptable spécialisé dans les ICOs. Il aime aider à anticiper les risques et partage son expertise sur des questions juridiques internationales. Amoureux de nouvelles technologies, il est investit dans plusieurs cryptomonnaies à titre personnel.
