@@ -19,7 +19,7 @@ export default class Header extends React.Component {
           <Row>
             <Col xs="6" md="8" lg="8">
               <div id="logo_top">
-                <img src="/images/logo/enzym_small_white.png" />
+                <a href="#"><img src="/images/logo/enzym_small_white.png" /></a>
                 <div className="left-side">
                   <Menu />
                 </div>
