@@ -6,7 +6,7 @@ import WhitePaperLinks from '../components/WhitePaperLinks'
 const IOS_URL = 'https://itunes.apple.com/app/id1437880226'
 const ANDROID_URL = 'https://play.google.com/store/apps/details?id=com.enzym_proto'
 
-export default ({children, isUserPage}) => {
+const Main = () => {
   return (
     <div className="background_img_top">
       <Container>
@@ -14,10 +14,12 @@ export default ({children, isUserPage}) => {
           <Col xs="12" sm="6" md="8">
             <div id="visual">
               <h1>
-                <T>Ico.intro.big</T><br/><T>Ico.intro.big2</T>
+                <T>Ico.intro.big</T>
+                <br />
+                <T>Ico.intro.big2</T>
               </h1>
               <h3><T>Ico.intro.small</T></h3>
-              <img src="/images/application-enzym.png" className="mockup"/>
+              <img src="/images/application-enzym.png" className="mockup" />
             </div>
             <Row className="cta">
               <Col xs="12" sm="12" md="4">
@@ -53,7 +55,7 @@ export default ({children, isUserPage}) => {
 
                 <div className="goal text-center">
                   <p><T>Ico.para7</T></p>
-                  <img src="/images/picto/eth.png" className="eth"/>
+                  <img src="/images/picto/eth.png" className="eth" />
                   <h3>25 000 ETH</h3>
                 </div>
 
@@ -65,3 +67,4 @@ export default ({children, isUserPage}) => {
     </div>
   )
 }
+export default Main

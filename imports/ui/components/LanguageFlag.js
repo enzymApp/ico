@@ -1,12 +1,12 @@
 import React    from 'react'
-import {Meteor} from 'meteor/meteor'
 import i18n     from 'meteor/universe:i18n'
 // import saveLanguage        from '/imports/api/users/saveLanguage'
 
 
-export default ({imgSrc, langCode}) => (
+const LanguageFlag = ({imgSrc, langCode}) => (
   <a onClick={changeLanguage(langCode)}><img src={imgSrc} /></a>
 )
+export default LanguageFlag
 
 const changeLanguage = (langCode) => () => {
   i18n.setLocale(langCode)

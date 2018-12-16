@@ -8,7 +8,7 @@ import Video          from '../layouts/Video'
 import Team           from '../layouts/Team'
 
 
-export default function Home({children}) {
+export default function Home() {
   return (
     <div>
       <Header />

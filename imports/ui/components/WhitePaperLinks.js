@@ -9,7 +9,7 @@ export default ({ children, className }) => (
       {children}
       <div className="sub-lang">
         {['EN', 'FR'].map(langCode => (
-          <div><a key={langCode} target="_blank" href={getWpUrl(langCode)}>{langCode}</a></div>
+          <div key={langCode}><a target="_blank" href={getWpUrl(langCode)}>{langCode}</a></div>
         ))}
       </div>
     </div>

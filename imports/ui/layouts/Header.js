@@ -9,13 +9,6 @@ const LANGS = [
   {langCode: 'en', imgSrc: '/images/picto/flag_EN.png'},
 ]
 
-const LINKS = [
-  {link: '#about', name: 'About Enzym'},
-  {link: '#whitepaper', name: 'Whitepaper'},
-  {link: '#team', name: 'Team'},
-
-]
-
 export default class Header extends React.Component {
   state = { status: false }
 
@@ -26,7 +19,7 @@ export default class Header extends React.Component {
           <div id="logo_top">
             <img src="/images/logo/enzym_small_white.png" />
             <div className="left-side">
-              <Menu></Menu>
+              <Menu />
             </div>
           </div>
         </Col>
@@ -39,7 +32,8 @@ export default class Header extends React.Component {
     )
   }
   toggleStatus = () => {
-    this.setState({ status: !this.state.status })
-    console.log('toggle button handler: '+ this.state.status)
+    const {status} = this.state
+    this.setState({ status: !status })
+    console.log('toggle button handler: '+ status)
   }
 }
