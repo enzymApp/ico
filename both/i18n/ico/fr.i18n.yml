@@ -6,13 +6,13 @@ menu:
   team: L'équipe
 
 intro:
-  big:  Le premier jeu mobile grandeur nature
+  big:  Le 1er jeu mobile grandeur nature
   big2: qui te fait rencontrer du monde
   small: Un projet bâti sur la blockchain Ethereum
 
 appbtn:
-  playstore: Aller sur le Playstore
-  appstore: Aller sur l'Appstore
+  playstore: Play Store
+  appstore: App Store
 
 token: TOKEN SALE
 
@@ -71,7 +71,7 @@ team:
   guillaume:
     work: Community Manager
     para: Guillaume est un gestionnaire de médias sociaux avec une expérience financière, il a travaillé six ans dans une banque française avant de décider de faire un voyage d'un an en Australie et en Asie. Après cela, il a rejoint deux startups pour se former à la gestion des médias sociaux et soutenir de nouveaux projets.
-  fred:
+  frederic:
     work: Business Developper
     para: Guillaume est un gestionnaire de médias sociaux avec une expérience financière. Il a travaillé pendant six ans dans une banque française avant de décider de partir pour un voyage d'un an en Australie et en Asie. Il a ensuite rejoint deux startups pour se former à la gestion des médias sociaux et soutenir de nouveaux projets.
 
