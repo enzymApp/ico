@@ -48,9 +48,6 @@ strong {
   font-size: 20px;
 }
 
-.row{
-  margin:0;
-}
 .container{
   max-width: 1200px;
   margin:auto;
@@ -74,9 +71,6 @@ strong {
   border-top:0;
 }
 
-.col-6{
-  padding: 0;
-}
 
 .col-6 img {
   width:inherit;
@@ -196,18 +190,15 @@ strong {
   background: url('/images/wave_bg.png') no-repeat center;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
-  padding-top: 30px;
-  padding-bottom: 55px;
-  min-height: 95vh;
+  min-height: 100vh;
 }
 
 #main{
-  min-height: 95vh;
-  max-width: 1200px;
-  margin: auto;
+  display: flex;
+  min-height: 100vh;
+  padding: 11vh 0 5vh 0;
   align-items: center;
   justify-content: center;
-  padding-top: 55px;
 }
 
 #main .cta .outline{
@@ -256,20 +247,20 @@ strong {
 }
 
 #main h2{
-  font-size: 48px;
+  font-size: 36px;
   text-align:center;
   color:white;
   font-weight: bold;
 }
 
 #main h3{
-  font-size: 28px;
+  font-size: 24px;
   text-align:center;
   color:white;
 }
 
 #main #visual{
-  margin-top: 65px;
+  //margin-top: 65px;
   text-align: center;
 }
 
