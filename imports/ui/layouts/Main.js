@@ -1,8 +1,12 @@
 import React from 'react'
 import {Container, Row, Col} from 'reactstrap'
-import T              from '../components/Translator'
+import T               from '../components/Translator'
+import WhitePaperLinks from '../components/WhitePaperLinks'
 
-export default ({children, isUserPage}) => {
+const IOS_URL = 'https://itunes.apple.com/app/id1437880226'
+const ANDROID_URL = 'https://play.google.com/store/apps/details?id=com.enzym_proto'
+
+const Main = () => {
   return (
     <div className="background_img_top">
       <Container>
@@ -10,31 +14,22 @@ export default ({children, isUserPage}) => {
           <Col xs="12" sm="12" md="6" lg="8">
             <div id="visual">
               <h1>
-                <T>Ico.intro.big</T><br/><T>Ico.intro.big2</T>
+                <T>Ico.intro.big</T>
+                <br />
+                <T>Ico.intro.big2</T>
               </h1>
               <h3><T>Ico.intro.small</T></h3>
-              <img src="/images/application-enzym.png" className="mockup"/>
+              <img src="/images/application-enzym.png" className="mockup" />
             </div>
             <Row className="cta">
               <Col xs="12" sm="12" md="12" lg="4">
-                <div className="whitepaper">
-                  <div className="outline">
-                    WHITEPAPER
-                    <div className="sub-lang">
-                      <a href="">FR</a><br/>
-                      <a href="">EN</a><br/>
-                      <a href="">CH</a><br/>
-                      <a href="">RUS</a><br/>
-                      <a href="">AR</a><br/>
-                    </div>
-                  </div>
-                </div>
+                <WhitePaperLinks>WHITEPAPER</WhitePaperLinks>
               </Col>
               <Col xs="12" sm="12" md="12" lg="4">
-                <a href="https://itunes.apple.com/app/id1437880226" className="app" target="_blank"><T>Ico.appbtn.appstore</T></a>
+                <a href={IOS_URL} className="app" target="_blank"><T>Ico.appbtn.appstore</T></a>
               </Col>
               <Col xs="12" sm="12" md="12" lg="4">
-                <a href="https://play.google.com/store/apps/details?id=com.enzym_proto" className="app" target="_blank"><T>Ico.appbtn.playstore</T></a>
+                <a href={ANDROID_URL} className="app" target="_blank"><T>Ico.appbtn.playstore</T></a>
               </Col>
             </Row>
           </Col>
@@ -60,7 +55,7 @@ export default ({children, isUserPage}) => {
 
                 <div className="goal text-center">
                   <p><T>Ico.para7</T></p>
-                  <img src="/images/picto/eth.png" className="eth"/>
+                  <img src="/images/picto/eth.png" className="eth" />
                   <h3>25 000 ETH</h3>
                 </div>
 
@@ -72,3 +67,4 @@ export default ({children, isUserPage}) => {
     </div>
   )
 }
+export default Main
