@@ -1,22 +1,14 @@
 import React    from 'react'
 import {Meteor} from 'meteor/meteor'
 import i18n     from 'meteor/universe:i18n'
+import WhitePaperLinks from '../components/WhitePaperLinks'
 
 export default ({link, name}) => (
   <div>
     <a href="#about" class="hide-link">About Enzym</a>
-    <div class="whitepaper inb hide-link">
-      <div class="outline">
-        <b className="name">Whitepaper</b>
-        <div class="sub-lang">
-          <a href="">FR</a><br/>
-          <a href="">EN</a><br/>
-          <a href="">CH</a><br/>
-          <a href="">RUS</a><br/>
-          <a href="">AR</a><br/>
-        </div>
-      </div>
-    </div>
-    <a href="#team" class="hide-link">Team</a>
+    <WhitePaperLinks className="inb hide-link">
+      <b className="name">Whitepaper</b>
+    </WhitePaperLinks>
+    <a href="#team" className="hide-link">Team</a>
   </div>
 )

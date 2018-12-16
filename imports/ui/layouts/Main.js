@@ -1,6 +1,10 @@
 import React from 'react'
 import {Container, Row, Col} from 'reactstrap'
-import T              from '../components/Translator'
+import T               from '../components/Translator'
+import WhitePaperLinks from '../components/WhitePaperLinks'
+
+const IOS_URL = 'https://itunes.apple.com/app/id1437880226'
+const ANDROID_URL = 'https://play.google.com/store/apps/details?id=com.enzym_proto'
 
 export default ({children, isUserPage}) => {
   return (
@@ -17,24 +21,13 @@ export default ({children, isUserPage}) => {
             </div>
             <Row className="cta">
               <Col xs="12" sm="12" md="4">
-                <div className="whitepaper">
-                  <div className="outline">
-                    WHITEPAPER
-                    <div className="sub-lang">
-                      <a href="">FR</a><br/>
-                      <a href="">EN</a><br/>
-                      <a href="">CH</a><br/>
-                      <a href="">RUS</a><br/>
-                      <a href="">AR</a><br/>
-                    </div>
-                  </div>
-                </div>
+                <WhitePaperLinks>WHITEPAPER</WhitePaperLinks>
               </Col>
               <Col xs="12" sm="12" md="4">
-                <a href="https://itunes.apple.com/app/id1437880226" className="app" target="_blank">GO TO APP STORE</a>
+                <a href={IOS_URL} className="app" target="_blank">GO TO APP STORE</a>
               </Col>
               <Col xs="12" sm="12" md="4">
-                <a href="https://play.google.com/store/apps/details?id=com.enzym_proto" className="app" target="_blank">GO TO PLAY STORE</a>
+                <a href={ANDROID_URL} className="app" target="_blank">GO TO PLAY STORE</a>
               </Col>
             </Row>
           </Col>
