@@ -5,8 +5,8 @@ import LanguageFlag from '../components/LanguageFlag'
 import Menu         from '../components/Menu'
 
 const LANGS = [
-  {langCode: 'fr', imgSrc: '/images/picto/flag_FR.png'},
-  {langCode: 'en', imgSrc: '/images/picto/flag_EN.png'},
+  {langCode: 'fr', imgSrc: '/images/picto/flag_FR.svg'},
+  {langCode: 'en', imgSrc: '/images/picto/flag_EN.svg'},
 ]
 
 export default class Header extends React.Component {
@@ -26,9 +26,11 @@ export default class Header extends React.Component {
               </div>
             </Col>
             <Col xs="6" md="4" lg="4" className="right-side">
-              {LANGS.map(({langCode, imgSrc}) => (
-                <LanguageFlag {...{langCode, imgSrc}} key={langCode} />
-              ))}
+              <div className="language-flag">
+                {LANGS.map(({langCode, imgSrc}) => (
+                  <LanguageFlag {...{langCode, imgSrc}} key={langCode} />
+                ))}
+              </div>
             </Col>
           </Row>
         </div>

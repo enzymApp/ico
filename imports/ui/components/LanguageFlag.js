@@ -4,7 +4,7 @@ import i18n     from 'meteor/universe:i18n'
 
 
 const LanguageFlag = ({imgSrc, langCode}) => (
-  <a onClick={changeLanguage(langCode)}><img src={imgSrc} /></a>
+  <a className="language-flag__ico" onClick={changeLanguage(langCode)}><img src={imgSrc} /></a>
 )
 export default LanguageFlag
 

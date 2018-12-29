@@ -61,6 +61,18 @@
   margin-right: 15px;
 }
 
+//Drapeau de langue
+
+.language-flag{
+  &__ico{
+    img{
+      max-width: 42px;
+      height: auto;
+    }
+  }
+}
+
+
 /* Menu mobile */
 
 #header .menu-mobile .hide-link{
