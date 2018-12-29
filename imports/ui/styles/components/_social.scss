@@ -29,9 +29,12 @@
     border:5px solid $social-jaune;
     transition: 0.4s;
     box-shadow: 5px 5px 63px -15px rgba(0,0,0,0.59);
-    &:hover{
-      background-color: $social-jaune;
-    }
+      img{
+        fill: $social-jaune;
+      }
+      &:hover{
+        background-color: $social-jaune;
+      }
   }
 
   .facebook_icon{

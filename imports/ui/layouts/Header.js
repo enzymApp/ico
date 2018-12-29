@@ -16,7 +16,7 @@ export default class Header extends React.Component {
     return (
       <div id="header">
         <div className="container-fluid">
-          <Row>
+          <Row className="align-items-center">
             <Col xs="6" md="8" lg="8">
               <div id="logo_top">
                 <a href="#"><img src="/images/logo/enzym_small_white.png" /></a>

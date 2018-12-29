@@ -1,1 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1092.82 792.96"><defs><style>.cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:#fff;}.cls-4{fill:#0071bc;}.cls-5{fill:#d4145a;}</style><clipPath id="clip-path"><circle class="cls-1" cx="549.74" cy="396.48" r="356.5"/></clipPath></defs><title>flag_FR</title><g id="Calque_2" data-name="Calque 2"><g id="Drapeau"><g class="cls-2"><circle class="cls-3" cx="549.74" cy="396.48" r="356.5"/><rect class="cls-4" width="413.14" height="792.96"/><rect class="cls-5" x="679.68" width="413.14" height="792.96"/></g></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 713 713" style="enable-background:new 0 0 713 713;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#0071BC;}
+	.st3{fill:#D4145A;}
+</style>
+<title>flag_FR</title>
+<g id="Calque_2">
+	<g id="Drapeau">
+		<g>
+			<defs>
+				<circle id="SVGID_1_" cx="356.8" cy="356.5" r="356.5"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st0">
+				<circle class="st1" cx="356.8" cy="356.5" r="356.5"/>
+				<rect x="-192.9" y="-40" class="st2" width="413.1" height="793"/>
+				<rect x="486.8" y="-40" class="st3" width="413.1" height="793"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

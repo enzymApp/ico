@@ -14,17 +14,6 @@
   margin-left:10px;
 }
 
-#header .right-side {
-  text-align: right;
-  padding-top: 9px;
-}
-
-#header .right-side a {
-  margin: 6px 10px;
-  font-weight: bold;
-  font-size: 15px;
-  transition: 0.2s;
-}
 
 #header .left-side a:hover {
   color:black;
@@ -33,7 +22,6 @@
 
 #header .left-side {
   text-align: left;
-  padding-top: 5px;
   display:inline-block;
 }
 
@@ -64,9 +52,18 @@
 //Drapeau de langue
 
 .language-flag{
+  text-align: right;
+
   &__ico{
+    display: inline-block;
+    width: 30px;
+    margin-right: 15px;
+    &:last-child{
+      margin-right:0;
+    }
+
     img{
-      max-width: 42px;
+      max-width: 100%;
       height: auto;
     }
   }
