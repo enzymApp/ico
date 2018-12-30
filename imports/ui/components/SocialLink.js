@@ -7,27 +7,27 @@ const socialNetworks = {
   twitter: {
     classs:   "twitter_icon",
     nameImg:  "twitterImg",
-    src:      "/images/picto/twitter.svg",
+    src:      "/images/picto/twitter.svg"
   },
   facebook: {
     classs:   "facebook_icon",
     nameImg:  "facebookImg",
-    src:      "/images/picto/facebook.svg",
+    src:      "/images/picto/facebook.svg"
   },
   telegram: {
     classs:   "telegram_icon",
     nameImg:  "telegramImg",
-    src:      "/images/picto/telegram.png",
+    src:      "/images/picto/telegram.svg"
   },
   github: {
     classs:   "github_icon",
     nameImg:  "githubImg",
-    src:      "/images/picto/github.png",
+    src:      "/images/picto/github.svg"
   },
   bitcoin: {
     classs:   "bitcoin_icon",
     nameImg:  "bitcoinImg",
-    src:      "/images/picto/bitcoin.png",
+    src:      "/images/picto/bitcoin.svg"
   }
 }
 

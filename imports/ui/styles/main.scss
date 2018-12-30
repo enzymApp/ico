@@ -12,6 +12,7 @@
 @import "components/promo";
 @import "components/header";
 @import "components/social";
+@import "components/whitepaper";
 @import "components/team";
 @import "components/advisor";
 @import "components/chat";
@@ -123,57 +124,9 @@ strong {
 
 /* Main */
 
-.whitepaper.inb{
-  display:inline-block;
-  position: relative;
-}
 
-.whitepaper.inb .name{
-  color: white;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 15px;
-}
-
-.whitepaper .sub-lang{
-  display: none;
-  position: absolute;
-  width: 100px;
-  margin: auto;
-  background: white;
-  border-radius: 8px;
-  left: 0;
-  right: 0;
-  top: 30px;
-  padding: 5px;
-}
-
-.whitepaper.inb .sub-lang{
-  top:40px;
-}
-
-.whitepaper .sub-lang a{
-  color:black;
-}
-.whitepaper .sub-lang a:hover{
-  color:#e63b99;
-}
-
-.whitepaper .outline:hover > .sub-lang{
-  display: block;
-}
 
 @media screen and (max-width: 990px) {
-  .whitepaper .outline:hover > .sub-lang{
-    display: block;
-
-  }
-  .whitepaper .sub-lang{
-    position: relative;
-    display: block;
-    background-color: transparent;
-    top:auto;
-  }
 
   #main .cta .outline:hover{
     background-color: transparent !important;
