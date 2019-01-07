@@ -39,12 +39,11 @@ export default class SocialLink extends React.Component {
   render() {
     const {name} = this.props
     const {classs, nameImg} = this.network
-    const url = t(name)
     const src = this.network['src']
     return (
-      <T>
-        <a className={classs} href={url} target="_blank" key={name}>
-          <img name={nameImg} src={src} />
+      <T _translateProps={['href']}>
+        <a className={classs} href={`SocialNetwork.${name}`} target="_blank" rel="noopener noreferrer">
+          <img name={nameImg} src={src} alt={name} />
         </a>
       </T>
     )
