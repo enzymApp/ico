@@ -6,7 +6,11 @@
   background: -webkit-linear-gradient(top, #69ddc8 0%,#6fc3ce 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, #69ddc8 0%,#6fc3ce 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69ddc8', endColorstr='#6fc3ce',GradientType=0 ); /* IE6-9 */
-  padding: 30px 0;
+  padding:10px 0;
+}
+
+#team{
+  padding: 55px 0;
 }
 
 #financial{

@@ -27,37 +27,37 @@ const advisor = [
 const Team = () => {
   return (
     <div className="background-img-team">
-
-    <Container>
       <div id="team">
-        <div className="title"><h2><T>Ico.team.head</T></h2></div>
-        <Row>
-          {team.map(({identity, code, linkedin, yellow}) => (
-            <Col xs="12" sm="6" md="6" key={identity}>
-              <div className="profil">
-                <div className="visual">
-                  <img src={`/images/people/${code}.png`} className="img-profil" />
-                </div>
-                <div className="content">
-                  <h2>{identity}</h2>
-                  <h3><T>{`Ico.team.${code}.work`}</T></h3>
-                  {yellow && <p className="yellow"><T>{`Ico.team.${code}.yellow`}</T></p>}
-                  <p className="para"><T>{`Ico.team.${code}.para`}</T></p>
-                </div>
-                <div className="linkedin">
-                  <a href={`https://www.linkedin.com/in/${linkedin}`} target="_blank">
-                    <img src="/images/linkedin-ico.png" />
-                  </a>
-                </div>
-              </div>
-            </Col>
-          ))}
-        </Row>
-      </div>
-      </Container>
+        <Container>
+            <div className="title"><h2><T>Ico.team.head</T></h2></div>
+            <Row>
+              {team.map(({identity, code, linkedin, yellow}) => (
+                <Col xs="12" sm="6" md="6" key={identity}>
+                  <div className="profil">
+                    <div className="visual">
+                      <img src={`/images/people/${code}.png`} className="img-profil" />
+                    </div>
+                    <div className="content">
+                      <h2>{identity}</h2>
+                      <h3><T>{`Ico.team.${code}.work`}</T></h3>
+                      {yellow && <p className="yellow"><T>{`Ico.team.${code}.yellow`}</T></p>}
+                      <p className="para"><T>{`Ico.team.${code}.para`}</T></p>
+                    </div>
+                    <div className="linkedin">
+                      <a href={`https://www.linkedin.com/in/${linkedin}`} target="_blank">
+                        <img src="/images/linkedin-ico.png" />
+                      </a>
+                    </div>
+                  </div>
+                </Col>
+              ))}
+            </Row>
+          </Container>
+        </div>
 
-      <Container>
+
       <div id="advisors">
+      <Container>
         <div className="title"><h2><T>Ico.advisors.head</T></h2></div>
         <Row>
           <div className="content-one">
@@ -86,11 +86,13 @@ const Team = () => {
             </Col>
           ))}
         </Row>
+        </Container>
       </div>
-    </Container>
 
-    <Container>
+
+
       <div id="financial">
+      <Container>
         <div className="profil">
           <div className="visual">
             <img src="/images/people/nicolas.png" className="img-profil" />
@@ -101,8 +103,8 @@ const Team = () => {
             <p className="para"><T>Ico.advisors.nicolas.para</T></p>
           </div>
         </div>
+        </Container>
       </div>
-    </Container>
 
     </div>
   )
