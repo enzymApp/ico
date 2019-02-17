@@ -4,7 +4,7 @@ import T               from '../components/Translator'
 import WhitePaperLinks from '../components/WhitePaperLinks'
 
 const IOS_URL = 'https://itunes.apple.com/app/id1437880226'
-const ANDROID_URL = 'https://play.google.com/store/apps/details?id=com.enzym.app'
+const ANDROID_URL = 'https://play.google.com/store/apps/details?id=io.enzym.app'
 
 const Main = () => {
   return (
