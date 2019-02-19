@@ -35,7 +35,7 @@
 }
 
 .sub-lang{
-  .EN, .FR{
+  .EN, .FR, .CN, .AR{
     position: relative;
     margin:5px 0;
     padding-left: 15px;
@@ -62,6 +62,20 @@
     &:before{
       content:"";
       background-image: url('/images/picto/flag_FR.svg');
+    }
+  }
+
+  .CN{
+    &:before{
+      content:"";
+      background-image: url('/images/picto/flag_CN.svg');
+    }
+  }
+
+  .AR{
+    &:before{
+      content:"";
+      background-image: url('/images/picto/flag_AR.svg');
     }
   }
 

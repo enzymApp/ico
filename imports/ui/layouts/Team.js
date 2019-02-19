@@ -14,7 +14,7 @@ const team = [
   {identity: 'Pauline Rochette',     code: 'pauline',   linkedin: 'pauline-rochette-624ba210b/'},
   {identity: 'Kevin Fuks',           code: 'kevin',     linkedin: 'ke-fu/'},
   {identity: 'Guillaume Larochette', code: 'guillaume', linkedin: 'glarochette/'},
-  {identity: 'Frédéric Duchesne',    code: 'frederic',  linkedin: 'fredericduchesne/'}
+  // {identity: 'Frédéric Duchesne',    code: 'frederic',  linkedin: 'fredericduchesne/'}
 
 ]
 
