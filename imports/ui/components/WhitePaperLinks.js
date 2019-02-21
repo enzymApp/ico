@@ -8,7 +8,7 @@ export default ({ children, className }) => (
     <div className="outline">
       {children}
       <div className="sub-lang">
-        {['EN', 'FR'].map(langCode => (
+        {['EN', 'FR', 'CN', 'AR'].map(langCode => (
           <div className={langCode} key={langCode}><a target="_blank" href={getWpUrl(langCode)}>{langCode}</a></div>
         ))}
       </div>

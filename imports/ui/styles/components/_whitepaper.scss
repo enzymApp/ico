@@ -35,7 +35,7 @@
 }
 
 .sub-lang{
-  .EN, .FR{
+  .EN, .FR, .CN, .AR{
     position: relative;
     margin:5px 0;
     padding-left: 15px;
@@ -48,6 +48,8 @@
       transform:translate(0, -50%);
       width: 20px;
       height: 20px;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
   }
 
@@ -62,6 +64,20 @@
     &:before{
       content:"";
       background-image: url('/images/picto/flag_FR.svg');
+    }
+  }
+
+  .CN{
+    &:before{
+      content:"";
+      background-image: url('/images/picto/flag_CN.svg');
+    }
+  }
+
+  .AR{
+    &:before{
+      content:"";
+      background-image: url('/images/picto/flag_AR.svg');
     }
   }
 
