@@ -3,7 +3,7 @@ import React from 'react'
 const FILES_URL = 'https://s3-eu-west-1.amazonaws.com/files.enzym.io/'
 const getWpUrl = (langCode) => FILES_URL + `White Paper ${langCode}.pdf`
 
-export default ({ children, className }) => (
+const WhitePaperLinks = ({ children, className }) => (
   <div className={`whitepaper ${className}`}>
     <div className="outline">
       {children}
@@ -15,3 +15,5 @@ export default ({ children, className }) => (
     </div>
   </div>
 )
+
+export default WhitePaperLinks

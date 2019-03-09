@@ -1,6 +1,6 @@
 import React      from 'react'
 import {Container, Row, Col} from 'reactstrap'
-import T     from '../components/Translator'
+import { FormattedMessage as T } from 'react-intl'
 
 const team = [
   {identity: 'Yannick Barnel',       code: 'yannick',   linkedin: 'barnel-yannick/',  yellow: true},
@@ -15,7 +15,6 @@ const team = [
   {identity: 'Kevin Fuks',           code: 'kevin',     linkedin: 'ke-fu/'},
   {identity: 'Guillaume Larochette', code: 'guillaume', linkedin: 'glarochette/'},
   // {identity: 'Frédéric Duchesne',    code: 'frederic',  linkedin: 'fredericduchesne/'}
-
 ]
 
 const advisor = [
@@ -24,13 +23,11 @@ const advisor = [
   {identity: 'Rémi Burgel',  code: 'remi',  linkedin: 'r%C3%A9mi-burgel-1999ab149/'},
 ]
 
-const Team = () => {
-  return (
-    <div className="background-img-team">
-
+const Team = () => (
+  <div className="background-img-team">
     <Container>
       <div id="team">
-        <div className="title"><h2><T>Ico.team.head</T></h2></div>
+        <div className="title"><h2><T id="ico.team.head" /></h2></div>
         <Row>
           {team.map(({identity, code, linkedin, yellow}) => (
             <Col xs="12" sm="6" md="6" key={identity}>
@@ -40,9 +37,9 @@ const Team = () => {
                 </div>
                 <div className="content">
                   <h2>{identity}</h2>
-                  <h3><T>{`Ico.team.${code}.work`}</T></h3>
-                  {yellow && <p className="yellow"><T>{`Ico.team.${code}.yellow`}</T></p>}
-                  <p className="para"><T>{`Ico.team.${code}.para`}</T></p>
+                  <h3><T id={`ico.team.${code}.work`} /></h3>
+                  {yellow && <p className="yellow"><T id={`ico.team.${code}.yellow`} /></p>}
+                  <p className="para"><T id={`ico.team.${code}.para`} /></p>
                 </div>
                 <div className="linkedin">
                   <a href={`https://www.linkedin.com/in/${linkedin}`} target="_blank">
@@ -54,18 +51,17 @@ const Team = () => {
           ))}
         </Row>
       </div>
-      </Container>
-
-      <Container>
+    </Container>
+    <Container>
       <div id="advisors">
-        <div className="title"><h2><T>Ico.advisors.head</T></h2></div>
+        <div className="title"><h2><T id="ico.advisors.head" /></h2></div>
         <Row>
           <div className="content-one">
-            <h2><T>Ico.advisors.title</T></h2>
-            <h3><T>Ico.advisors.subtitle</T></h3>
-            <p className="para"><T>Ico.advisors.para1</T></p>
-            <p className="para"><T>Ico.advisors.para2</T></p>
-            <p className="para"><T>Ico.advisors.para3</T></p>
+            <h2><T id="ico.advisors.title" /></h2>
+            <h3><T id="ico.advisors.subtitle" /></h3>
+            <p className="para"><T id="ico.advisors.para1" /></p>
+            <p className="para"><T id="ico.advisors.para2" /></p>
+            <p className="para"><T id="ico.advisors.para3" /></p>
           </div>
           {advisor.map(({identity, code, linkedin}) => (
             <Col xs="12" sm="4" md="4" key={identity}>
@@ -75,7 +71,7 @@ const Team = () => {
                 </div>
                 <div className="content">
                   <h2>{identity}</h2>
-                  <h3><T>{`Ico.advisors.${code}.work`}</T></h3>
+                  <h3><T id={`ico.advisors.${code}.work`} /></h3>
                 </div>
                 <div className="linkedin">
                   <a href={`https://www.linkedin.com/in/${linkedin}`} target="_blank">
@@ -88,7 +84,6 @@ const Team = () => {
         </Row>
       </div>
     </Container>
-
     <Container>
       <div id="financial">
         <div className="profil">
@@ -96,15 +91,13 @@ const Team = () => {
             <img src="/images/people/nicolas.png" className="img-profil" />
           </div>
           <div className="content">
-            <h2><T>Ico.advisors.nicolas.name</T></h2>
-            <h3><T>Ico.advisors.nicolas.work</T></h3>
-            <p className="para"><T>Ico.advisors.nicolas.para</T></p>
+            <h2><T id="ico.advisors.nicolas.name" /></h2>
+            <h3><T id="ico.advisors.nicolas.work" /></h3>
+            <p className="para"><T id="ico.advisors.nicolas.para" /></p>
           </div>
         </div>
       </div>
     </Container>
-
-    </div>
-  )
-}
+  </div>
+)
 export default Team

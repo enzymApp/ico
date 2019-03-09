@@ -3,7 +3,7 @@ import {Route, Switch}       from 'react-router'
 import {BrowserRouter}       from 'react-router-dom'
 import {Helmet}              from 'react-helmet'
 
-import Home               from '/imports/ui/pages/Home'
+import Home               from './pages/Home'
 
 const Routes = () => (
   <BrowserRouter>
