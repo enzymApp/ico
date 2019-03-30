@@ -73,7 +73,10 @@ team:
     para: Guillaume est un gestionnaire de médias sociaux avec une expérience financière, il a travaillé six ans dans une banque française avant de décider de faire un voyage d'un an en Australie et en Asie. Après cela, il a rejoint deux startups pour se former à la gestion des médias sociaux et soutenir de nouveaux projets.
   frederic:
     work: Business Developper
-    para: Guillaume est un gestionnaire de médias sociaux avec une expérience financière. Il a travaillé pendant six ans dans une banque française avant de décider de partir pour un voyage d'un an en Australie et en Asie. Il a ensuite rejoint deux startups pour se former à la gestion des médias sociaux et soutenir de nouveaux projets.
+    para: <--- une description ici --->.
+  alexandre:
+    work: Intégrateur web
+    para: Alexandre est actuellement intégrateur pour le compte d'un grand groupe bancaire et tend à devenir développeur développeur sur React et React-Native grâce à Enzym, projet dans lequel il aime de plus en plus s'impliquer.
 
 advisors:
   head: Nos conseillers
